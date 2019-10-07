@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://getbootstrap.com.br/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="login.css" rel="stylesheet">
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <script src="project.js"></script>
+    </head>
+    <body class="text-center bkg-i container">
+        <form class="form-signin bg-white rounded" name="signin">
+            <img class="mb-4 mt-4" src="https://getbootstrap.com.br/docs/4.1/assets/brand/bootstrap-solid.svg" width="72" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">Projeto</h1>
+            <h1 class="h6 mb-3 font-weight-normal">Acesse sua conta</h1>
+            <input type="text" id="login" class="form-control mb-2" placeholder="Digite seu login" required autofocus="">
+            <input type="password" id="password" class="form-control mb-2" placeholder="Digite sua senha" required >
+            <div class="checkbox mb-3 ml-3">
+                <label class="font-weight-light"><input type="checkbox" class="form-check-input " value="remember-me">Manter conectado</label>
+                <a href="">Esqueceu sua senha?</a> 
+            </div>
+            <button class="btn btn-lg btn-primary btn-block mb-5" type="button" onclick="auth()">Acessar conta</button>
+            
+        </form>
+    </body>
+    <!-- Created by Arthur Angelo -->
+</html>
